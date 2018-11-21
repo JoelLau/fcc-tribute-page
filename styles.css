@@ -1,5 +1,30 @@
-#image {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto 0 auto;
+:root {
+    --background-primary: #0f4d8f;
+    --background-secondary: #ffff00;
+    --text-primary: #000000;
+    --text-secondary: #000000;
+    --font-primary: "Lobster";
+    --font-secondary: "Press Start 2P";
+}
+
+body {
+    background-color: var(--background-secondary);
+    font-family: var(--font-primary);
+    color: var(--text-primary);
+}
+
+article {
+    background-color: var(--background-primary);
+    width: 60%;
+    margin: 1% 20%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-secondary);
+    color: var(--text-secondary);
 }
